@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: burlywood;
+
+  &.dark {
+    background-color: black;
+    
+    
+    .click-button{
+      background-color: dimgray;
+      
+      color: white;
+    }
+    
+      p {
+      color: white;
+      display: block;
+    }
+  }
+
+  .click-button {
+  padding: 10px;
+
+  border: none;
+
+  background-color: lightgreen;
+  
+  
+  
+  &:hover {
+    border: 1px solid blue;
+  } 
+}
+p{
+  display: none;
+}
+}
